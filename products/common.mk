@@ -2,7 +2,6 @@
 
 PRODUCT_COPY_FILES += \
 vendor/conical/proprietary/TVOUT.apk:./system/app/TVOUT.apk\
-vendor/conical/proprietary/Twitter.apk:./system/app/Twitter.apk\
 vendor/conical/proprietary/GoogleCalendarSyncAdapter.apk:./system/app/GoogleCalendarSyncAdapter.apk\
 vendor/conical/proprietary/Flashlight.apk:./system/app/Flashlight.apk\
 vendor/conical/proprietary/LatinImeTutorial.apk:./system/app/LatinImeTutorial.apk\
