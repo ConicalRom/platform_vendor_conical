@@ -1,0 +1,26 @@
+Version .1
+	No Vendor tree
+
+Version .4
+	No Vendor tree
+
+Version .5
+	No Vendor tree
+
+Version .6
+	No Vendor tree
+
+Version .7
+	Added products directory
+		AndroidProducts.mk added
+		common.mk added
+		Device Incredible added
+	Added proprietary directory
+		Contains proprietry google apps
+		Contains proprietry htc apps
+
+Version .7
+	Added clockwork.mk to products directory
+	Updated conical_inc.mk to include clockwork.mk
+	
+	
