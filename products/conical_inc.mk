@@ -23,6 +23,9 @@ $(call inherit-product, device/htc/inc/inc.mk)
 # Inherit some common conical stuff.
 $(call inherit-product, vendor/conical/products/common.mk)
 
+# Pick up overlay for features that depend on non-open-source files
+DEVICE_PACKAGE_OVERLAYS += vendor/conical/products/overlay
+
 
 
 
