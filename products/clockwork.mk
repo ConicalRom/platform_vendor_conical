@@ -19,7 +19,7 @@
 
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.rommanager.developerid=linuxmotion \
-ro.modversion=ConicalRoms-0.8.xx
+ro.modversion=ConicalRoms-0.8.0.2
 
 
 
