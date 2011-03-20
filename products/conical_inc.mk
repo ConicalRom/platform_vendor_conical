@@ -21,12 +21,24 @@
 $(call inherit-product, device/htc/inc/inc.mk)
 
 # Inherit some common conical stuff.
-# $(call inherit-product, vendor/conical/products/common.mk)
+ $(call inherit-product, vendor/conical/products/common.mk)
 
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS += vendor/conical/products/overlay
 
 
+BUILD_ID := FRF91 
+   BUILD_DISPLAY_ID := FRG91
+BUILD_NUMBER :=231334
+
+VERSION_TAGS_OVERIDES:=true
+BUILD_DESC_SET_OVERIDE := true
+FINGERPRINT_DEFINED := true
+
+BUILD_VERSION_TAGS := release-keys
+build_desc := 3.21.605.1 CL231334 release-keys
+
+BUILD_FINGERPRINT := verizon_wwe/inc/inc/inc:2.2/FRF91/231334:user/release-keys
 
 
 
